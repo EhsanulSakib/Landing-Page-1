@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #05071A;
+  --primary-text: #FFFFFF;
+  --primary: #376AED;
+  --secondary: #A8C0FF;
+  --tertiary: #ED7CFF;
+}
+
+body {
+  background: var(--background);
+  color: var(--primary-text);
+}
+
+.navbar-large {
+  @apply mt-4;
+}
+
+h1 {
+  @apply text-3xl md:text-4xl lg:text-6xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+p {
+  @apply text-base;
+}
+
+.primary-btn{
+  @apply flex items-center gap-1 px-4 py-2 text-sm lg:text-xl xl:text-2xl font-bold rounded-full;
+}
+
+.content-section{
+  @apply flex w-full px-4 xl:px-12 justify-center items-center xl:w-5/6 mt-12 xl:mt-0 ml-auto h-screen min-h-screen;
+}
