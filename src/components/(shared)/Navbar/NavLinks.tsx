@@ -15,7 +15,7 @@ const NavLinks = ({ closeDrawer }: { closeDrawer?: () => void }) => {
 
   return (
     <div className="flex flex-col w-full lg:flex-row mt-6 lg:mt-0 gap-6 lg:gap-12 lg:items-center justify-between lg:justify-center">
-      <ul className="flex flex-col lg:flex-row gap-8 text-secondary font-semibold text-base md:text-lg lg:text-xl xl:text-2xl lg:items-center">
+      <ul className="flex flex-col lg:flex-row gap-8 text-secondary font-semibold text-sm md:text-base lg:text-lg xl:text-xl lg:items-center">
         {navItems.map(({ href, label }) => (
           <li key={href}>
             <Link

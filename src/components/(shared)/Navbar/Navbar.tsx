@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full shadow-md">
-      <aside className="hidden w-full lg:flex fixed left-1/2 transform -translate-x-1/2 max-w-[1920px] mx-auto h-24 py-4 justify-between items-center z-50 px-[1%] md:px-[2%]">
+      <aside className="bg-background drop-shadow-md drop-shadow-primary hidden w-full lg:flex fixed left-1/2 transform -translate-x-1/2 max-w-[1920px] mx-auto h-24 py-4 justify-between items-center z-50 px-[1%] md:px-[2%]">
         <h2>ORBEACON</h2>
         <NavLinks />
         <div className="flex gap-6 items-center">
