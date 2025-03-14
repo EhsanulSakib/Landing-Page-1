@@ -20,7 +20,7 @@ const Navbar = () => {
       </aside>
 
       {/* Mobile / Tablet Navbar */}
-      <header className="lg:hidden flex items-center justify-between gap-2 p-2 fixed w-full top-0 z-50 px-[1%] md:px-[2%]">
+      <header className="bg-background lg:hidden flex items-center justify-between gap-2 p-2 fixed w-full top-0 z-50 px-[1%] md:px-[2%]">
         <div className="flex items-center">
           <button onClick={() => setIsOpen(true)} className="p-2">
             <FiMenu size={28} className="text-secondary" />

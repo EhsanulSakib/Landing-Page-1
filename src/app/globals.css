@@ -15,20 +15,54 @@ body {
   color: var(--primary-text);
 }
 
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--background); /* Gray color */
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #376AED; /* Darker gray */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--background); /* Light gray */
+  border-radius: 4px;
+}
+
+/* Track when the handle is being dragged */
+::-webkit-scrollbar-thumb:active {
+  background-color: #1f2937; /* Darker shade */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #4f46e5, #1f2937);
+  border-radius: 10px;
+}
+
+
+
 .navbar-large {
   @apply mt-4;
 }
 
 h1 {
-  @apply text-2xl/[1.1] md:text-3xl/[1.1] lg:text-4xl/[1.1] xl:text-6xl/[1.1];
+  @apply text-3xl/[1.1] md:text-4xl/[1.1] lg:text-5xl/[1.1] xl:text-6xl/[1.1];
 }
 
 h2 {
-  @apply text-4xl;
+  @apply text-2xl/[1.1] md:text-3xl/[1.1] lg:text-4xl/[1.1] xl:text-5xl/[1.1];
 }
 
 h3 {
-  @apply text-xs md:text-base lg:text-lg xl:text-xl;
+  @apply text-sm md:text-lg lg:text-xl xl:text-2xl;
 }
 
 p {

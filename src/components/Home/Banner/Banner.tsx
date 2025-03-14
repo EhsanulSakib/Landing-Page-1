@@ -1,6 +1,8 @@
 import CommonButton from '@/components/(shared)/Button/CommonButton';
-import Image from 'next/image';
 import React from 'react';
+import ChatFeature from './ChatFeature';
+import FadeUpAnimation from '@/components/(shared)/Animation/FadeUpAnimation';
+import SupportFeature from './SupportFeature';
 
 const Banner = () => {
     return (
@@ -14,19 +16,11 @@ const Banner = () => {
                 <CommonButton title="Request a Demo" link='/login' style='border border-primaryText hover:bg-primaryText hover:text-background transition ease-in-out duration-500' />
             </div>
 
-            <div className='relative w-[60%] md:w-[50%] lg:w-[40%] xl:w-[30%] mx-auto'>
-                <Image src={'/asset/orb.png'} alt="orb" width={1200} height={1200} className='w-full mx-auto mt-8 md:mt-12 lg:mt-16 xl:mt-24' />
-                <div className='absolute w-full scale-110 h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full radial-gradient -z-[20] blur-2xl'></div>
-                <section className='absolute w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-125'>
-                    <div className='flex justify-center items-center gap-2'>
-                        <div className='flex flex-col items-end w-full'>
-                            <p>Jhon</p>
-                            <p className='bg-gradient-to-r from-primary/20 to-primary/50 p-3 rounded-lg'>Can you show me a summary of today's sales?</p>
-                        </div>
-                        <Image src={'/asset/user.jpg'} alt="orb" width={1200} height={1200} className='w-10 h-10 rounded-full object-cover mx-auto mt-6' />
-                    </div>
-                </section>
-            </div>
+            <FadeUpAnimation>
+                <ChatFeature />
+            </FadeUpAnimation>
+
+            <SupportFeature/>
         </div>
     );
 };
