@@ -14,18 +14,18 @@ const FirstFeaturesSection = () => {
                     <div className="relative p-6 rounded-lg flex flex-col gap-2 transition ease-in-out duration-500 cursor-pointer group">
                         <div className="absolute inset-0 bg-gradient-to-tr from-background/20 to-primary/40 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-lg pointer-events-none"></div>
                         <h3 className="font-bold relative z-10">Smart Task Assignment</h3>
-                        <p className="relative z-10">AI-powered task recommendations tailored to team skills and availability.</p>
+                        <p className="relative z-10 text-primaryText/60">AI-powered task recommendations tailored to team skills and availability.</p>
                     </div>
 
                     <div className="relative p-6 bg-gradient-to-tr from-background/20 to-primary/40 rounded-lg flex flex-col gap-2 transition ease-in-out duration-500 cursor-pointer shadow-md shadow-primary/30">
                         <h3 className="font-bold relative z-10">Real-Time Analytics & Collaboration</h3>
-                        <p className="relative z-10">Instantly access to your project data insights to make informed decisions on the go.</p>
+                        <p className="relative z-10 text-primaryText/60">Instantly access to your project data insights to make informed decisions on the go.</p>
                     </div>
 
                     <div className="relative p-6 rounded-lg flex flex-col gap-2 transition ease-in-out duration-500 cursor-pointer group">
                         <div className="absolute inset-0 bg-gradient-to-tr from-background/20 to-primary/40 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-lg pointer-events-none"></div>
                         <h3 className="font-bold relative z-10">Seamless Integration</h3>
-                        <p className="relative z-10">Connect with your favorite tools for uninterrupted workflows and instantly start interacting with customers.</p>
+                        <p className="relative z-10 text-primaryText/60">Connect with your favorite tools for uninterrupted workflows and instantly start interacting with customers.</p>
                     </div>
 
                 </section>
