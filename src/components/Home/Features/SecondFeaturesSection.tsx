@@ -58,8 +58,8 @@ const SecondFeaturesSection = () => {
                     </ul>
                 </div>
 
-                <div className='w-4/5'>
-                    <Image src={'/asset/orb.png'} alt="orb" width={600} height={600} className='mt-4 md:mt-0 ml-auto' />
+                <div className='w-full pt-12 2xl:pt-20 px-12 bg-gradient-to-tr from-tertiary/10 to-primary/40 rounded-xl'>
+                    <Image src={'/asset/automation.png'} alt="automation" width={500} height={500} className='mx-auto rounded-xl' />
                 </div>
             </section>
         </div>
