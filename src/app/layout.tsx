@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Cairo } from 'next/font/google';
 import Navbar from "@/components/(shared)/Navbar/Navbar";
+import Footer from "@/components/(shared)/Footer/Footer";
 
 const metadata: Metadata = {
   title: {
@@ -25,9 +26,10 @@ export default function RootLayout({
         className={`${cairo.className} bg-background text-foreground antialiased w-full min-h-screen`}
       >
         <Navbar />
-        <section className="max-w-[1920px] mx-auto pt-16 lg:pt-24">
+        <section className="max-w-[1920px] mx-auto py-16 lg:py-24">
           {children}
         </section>
+        <Footer />
       </body>
     </html>
   );

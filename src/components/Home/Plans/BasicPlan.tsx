@@ -4,8 +4,8 @@ import { TiTick } from "react-icons/ti";
 
 const BasicPlan = () => {
     return (
-        <div className='min-h-[500px] w-full max-w-[600px] flex flex-col bg-gradient-to-br from-background/20 to-primary/40 rounded-lg shadow-lg shadow-primary/40 border border-primary/10'>
-            <div className='p-6 flex justify-between w-full items-end border-b border-primaryText/50'>
+        <div className='min-h-[600px] xl:min-h-[500px] w-full max-w-[600px] flex flex-col bg-gradient-to-br from-background/20 to-primary/40 rounded-lg shadow-lg shadow-primary/40 border border-primary/10'>
+            <div className='p-3 xl:p-6 flex justify-between w-full items-end border-b border-primaryText/50'>
                 <div>
                     <h3 className='font-bold text-2xl'>Basic Plan</h3>
                     <p className='text-primaryText/70'>Our most popular plan for small teams.</p>
@@ -15,7 +15,7 @@ const BasicPlan = () => {
             </div>
 
 
-            <div className='p-6 flex flex-col gap-1'>
+            <div className='p-3 xl:p-6  flex flex-col gap-1'>
                 <div>
                     <h3 className='font-semibold'>FEATURES</h3>
                     <p className='text-primaryText/70'>Everything you need to know about our basic plan...</p>

@@ -7,7 +7,7 @@ const ThirdFeaturesSection = () => {
     const title = "What Sets Orbeacon Apart from Other Platforms?"
     const subTitle = "Orbeacon empowers business with seamless bot creation, customizable assistants, easy integration, and automation across platforms."
     return (
-        <div>
+        <div className='w-full'>
             <SectionTitle title={title} subTitle={subTitle} />
             <section className='mt-8 lg:mt-16 w-full flex flex-col md:flex-row justify-between items-center gap-4 lg:gap-8'>
                 <div className='min-h-[500px] w-full md:w-4/5 flex flex-col p-6 bg-gradient-to-tl from-tertiary/10 to-primary/40 rounded-xl'>

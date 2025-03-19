@@ -5,17 +5,24 @@ import React from 'react';
 const ChatFeature = () => {
     return (
         <div className='relative w-full'>
-            <Image src={'/asset/orb.png'} alt="orb" width={1200} height={1200} className='w-[55%] md:w-[50%] lg:w-[40%] xl:w-[35%] mx-auto mt-20 md:mt-12 lg:mt-16 xl:mt-24' />
+            <Image
+                src={'/asset/orb.png'}
+                alt="orb"
+                width={1200}
+                height={1200}
+                className="w-[55%] md:w-[50%] lg:w-[40%] xl:w-[35%] mx-auto mt-20 md:mt-12 lg:mt-16 xl:mt-24 animate-spin"
+                style={{ animationDuration: '90s' }} // Slower spin effect
+            />
             <div className='absolute w-[60%] md:w-[50%] lg:w-[40%] xl:w-[35%] mx-autoscale-110 h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full radial-gradient -z-[20] blur-2xl'></div>
             <section className='absolute flex flex-col gap-4 md:gap-8 lg:gap-12 w-11/12 xl:w-[60%] mx-auto h-full top-1/4 md:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
                 <GlowingAnimation>
-                <div className='flex justify-center items-center gap-2'>
-                    <div className='flex flex-col gap-1 items-end w-full'>
-                        <p>Jhon</p>
-                        <p className='bg-gradient-to-r from-primary/80 to-background/80 p-2 lg:p-3 rounded-lg border-b-2 border-r-2 shadow-md border-secondary/30'>Can you show me a summary of today's sales?</p>
+                    <div className='flex justify-center items-center gap-2'>
+                        <div className='flex flex-col gap-1 items-end w-full'>
+                            <p>Jhon</p>
+                            <p className='bg-gradient-to-r from-primary/80 to-background/80 p-2 lg:p-3 rounded-lg border-b-2 border-r-2 shadow-md border-secondary/30'>Can you show me a summary of today's sales?</p>
+                        </div>
+                        <Image src={'/asset/user.jpg'} alt="orb" width={1200} height={1200} className='w-12 h-12 rounded-full object-cover mx-auto mt-7' />
                     </div>
-                    <Image src={'/asset/user.jpg'} alt="orb" width={1200} height={1200} className='w-12 h-12 rounded-full object-cover mx-auto mt-7' />
-                </div>
                 </GlowingAnimation>
 
                 <GlowingAnimation>
