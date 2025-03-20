@@ -3,7 +3,7 @@ import Banner from './Banner/Banner';
 import Features from './Features/Features';
 import GetStartedSection from './StartedSection/GetStartedSection';
 import Plan from './Plans/Plan';
-import FAQ from './FAQ/Faq';
+import FAQ from './FAQ/FAQ';
 
 const HomePage = () => {
     return (

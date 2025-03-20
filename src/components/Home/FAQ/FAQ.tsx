@@ -28,15 +28,15 @@ export default function FAQ() {
     };
 
     return (
-        <div className="mx-auto flex flex-col min-w-[600px] max-w-[600px]">
+        <div className="flex flex-col w-11/12 lg:w-5/6 xl:w-3/4 mx-auto justify-between items-center gap-8 lg:gap-12">
             <SectionTitle title={title} subTitle={subTitle} />
 
-            <div className="mt-8 min-w-[600px] max-w-[600px] mx-auto flex flex-col gap-4">
+            <div className="mt-8 w-full flex flex-col gap-4">
                 {faqs.map((faq, index) => (
                     <div key={index} className="border-b border-gray-700 w-full">
                         {/* Button to Toggle FAQ */}
                         <button
-                            className="min-w-[600px] max-w-[600px] flex justify-between items-center py-4 px-6 text-left"
+                            className="w-full flex justify-between items-center py-4 px-6 text-left"
                             onClick={() => toggleFAQ(index)}
                         >
                             <span className="text-lg font-medium flex-wrap">{faq.question}</span>
@@ -54,7 +54,7 @@ export default function FAQ() {
                             animate={openIndex === index ? { height: 'auto', opacity: 1 } : { height: 0, opacity: 0 }}
                             transition={{ duration: 0.3, ease: 'easeInOut' }}
                         >
-                            <p className="text-gray-300 pb-4 min-w-[600px] max-w-[600px]">{faq.answer}</p>
+                            <p className="text-gray-300 pb-4 w-full">{faq.answer}</p>
                         </motion.div>
                     </div>
                 ))}
