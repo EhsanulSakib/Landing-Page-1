@@ -3,6 +3,7 @@ import "./globals.css";
 import { Cairo } from 'next/font/google';
 import Navbar from "@/components/(shared)/Navbar/Navbar";
 import Footer from "@/components/(shared)/Footer/Footer";
+import MoveToTop from "@/components/(shared)/Button/MoveToTop";
 
 const metadata: Metadata = {
   title: {
@@ -30,6 +31,7 @@ export default function RootLayout({
           {children}
         </section>
         <Footer />
+        <MoveToTop />
       </body>
     </html>
   );

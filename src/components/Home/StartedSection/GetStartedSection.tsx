@@ -3,7 +3,7 @@ import React from 'react';
 
 const GetStartedSection = () => {
     return (
-        <div className='relative w-11/12 lg:w-5/6 xl:w-3/4 mx-auto flex flex-col justify-between items-center py-16 md:py-20 lg:py-24 gap-4 lg:gap-8'>
+        <div id='get-started' className='relative w-11/12 lg:w-5/6 xl:w-3/4 mx-auto flex flex-col justify-between items-center py-16 md:py-20 lg:py-24 gap-4 lg:gap-8'>
             <h2 className='font-semibold text-center'>Ready to Transform Your Business?</h2>
 
             <div className='flex gap-4'>

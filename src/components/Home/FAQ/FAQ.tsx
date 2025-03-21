@@ -28,7 +28,7 @@ export default function FAQ() {
     };
 
     return (
-        <div className="flex flex-col w-11/12 lg:w-5/6 xl:w-3/4 mx-auto justify-between items-center gap-8 lg:gap-12">
+        <div id='faq' className="flex flex-col w-11/12 lg:w-5/6 xl:w-3/4 mx-auto justify-between items-center gap-8 lg:gap-12">
             <SectionTitle title={title} subTitle={subTitle} />
 
             <div className="mt-8 w-full flex flex-col gap-4">

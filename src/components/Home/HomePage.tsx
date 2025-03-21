@@ -7,7 +7,7 @@ import FAQ from './FAQ/FAQ';
 
 const HomePage = () => {
     return (
-        <div className='mt-6 lg:mt-8 flex flex-col gap-16 md:gap-24 lg:gap-32 xl:gap-36 w-full'>
+        <div id='home' className='mt-6 lg:mt-8 flex flex-col gap-16 md:gap-24 lg:gap-32 xl:gap-36 w-full'>
             <Banner />
             <Features/>
             <Plan/>

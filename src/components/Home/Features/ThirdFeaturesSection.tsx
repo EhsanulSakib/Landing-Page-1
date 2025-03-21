@@ -2,6 +2,9 @@ import SectionTitle from '@/components/(shared)/Titles/SectionTitle';
 import Image from 'next/image';
 import React from 'react';
 import { PiSquaresFour } from "react-icons/pi";
+import { GiElectric } from "react-icons/gi";
+import { GrIntegration } from "react-icons/gr";
+import { GrTechnology } from "react-icons/gr";
 
 const ThirdFeaturesSection = () => {
     const title = "What Sets Orbeacon Apart from Other Platforms?"
@@ -29,12 +32,12 @@ const ThirdFeaturesSection = () => {
 
                 <div className='min-h-[500px] w-full flex flex-col p-6 bg-gradient-to-tl from-tertiary/10 to-background/40 rounded-xl'>
                     <div className='flex gap-2 items-center'>
-                        <PiSquaresFour className='text-3xl w-10 lg:w-12 h-10 lg:h-12 bg-primary text-primaryText p-2 rounded-full' />
+                        <GiElectric className='text-3xl w-10 lg:w-12 h-10 lg:h-12 bg-primary text-primaryText p-2 rounded-full' />
                         <h3 className='font-bold'>CHATBOTS</h3>
                     </div>
 
                     <div>
-                        <Image src={'/asset/aio.png'} alt="automation" width={1200} height={1200} className='w-64 mx-auto py-8 rounded-xl' />
+                        <Image src={'/asset/2.png'} alt="automation" width={1200} height={1200} className='w-64 mx-auto py-8 rounded-xl' />
                     </div>
 
                     <div className='pr-6'>
@@ -46,12 +49,12 @@ const ThirdFeaturesSection = () => {
             <section className='mt-4 lg:mt-8 w-full flex flex-col md:flex-row-reverse justify-between items-center gap-4 lg:gap-8'>
                 <div className='min-h-[500px] w-full md:w-4/5 flex flex-col p-6 bg-gradient-to-tl from-tertiary/10 to-background/40 rounded-xl'>
                     <div className='flex gap-2 items-center'>
-                        <PiSquaresFour className='text-3xl w-10 lg:w-12 h-10 lg:h-12 bg-primary text-primaryText p-2 rounded-full' />
+                        <GrIntegration className='text-3xl w-10 lg:w-12 h-10 lg:h-12 bg-primary text-primaryText p-2 rounded-full' />
                         <h3 className='font-bold'>INTEGRATIONS</h3>
                     </div>
 
                     <div>
-                        <Image src={'/asset/aio.png'} alt="automation" width={1200} height={1200} className='w-64 mx-auto py-8 rounded-xl' />
+                        <Image src={'/asset/4.png'} alt="automation" width={1200} height={1200} className='w-64 mx-auto py-8 scale-125 rounded-xl' />
                     </div>
 
                     <div>
@@ -63,12 +66,12 @@ const ThirdFeaturesSection = () => {
 
                 <div className='min-h-[500px] w-full flex flex-col p-6 bg-gradient-to-tl from-tertiary/10 to-background/40 rounded-xl'>
                     <div className='flex gap-2 items-center'>
-                        <PiSquaresFour className='text-3xl w-10 lg:w-12 h-10 lg:h-12 bg-primary text-primaryText p-2 rounded-full' />
+                        <GrTechnology className='text-3xl w-10 lg:w-12 h-10 lg:h-12 bg-primary text-primaryText p-2 rounded-full' />
                         <h3 className='font-bold'>TECHNOLOGY</h3>
                     </div>
 
                     <div>
-                        <Image src={'/asset/aio.png'} alt="automation" width={1200} height={1200} className='w-64 mx-auto py-8 rounded-xl' />
+                        <Image src={'/asset/3.png'} alt="automation" width={1200} height={1200} className='w-64 scale-125 mx-auto py-8 rounded-xl' />
                     </div>
 
                     <div className='pr-6'>
